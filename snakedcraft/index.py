@@ -9,11 +9,6 @@ jars = cache + '\jars'
 conf = cache + '\conf'
 utils = root + '\\utils'\
 
-# Self updating!
-import urllib.request
-
-path = os.path.dirname(__file__)
-
 # Set up for downloads
 from pathlib import Path
 
