@@ -1,2 +1,2 @@
-what the fuck is oatmeal
-# anyways, this is my cdn
+drrate's cdn
+stfu github works, free 1gb
