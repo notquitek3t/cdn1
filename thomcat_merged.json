@@ -2,11 +2,11 @@
     "name": "ThomCat_Merged",
     "is_dark": true,
     "colors": {
-        "accent-color": "#747ff4",
-        "accent": "#747ff4",
+        "accent-color": "#5a2fb7",
+        "accent": "#5a2fb7",
         "primary-color": "#00aff4",
-        "warning-color": "#faa81ad9",
-        "alert": "#faa81ad9",
+        "warning-color": "#990002",
+        "alert": "#990002",
         "sidebar-color": "#000000",
         "roomlist-background-color": "#191919",
         "roomlist-text-color": "#cc7b19",
@@ -20,10 +20,13 @@
         "timeline-text-secondary-color": "#b2b2b2",
         "timeline-highlights-color": "#212121",
         "reaction-row-button-selected-bg-color": "#cc7b19",
-        "menu-selected-color": "#4752c4",
-        "focus-bg-color": "#4752c4",
-        "room-highlight-color": "#4752c4",
-        "other-user-pill-bg-color": "#4752c4",
-        "togglesw-off-color": "#72767d"
+        "menu-selected-color": "#5a2fb7",
+        "focus-bg-color": "#5a2fb7",
+        "room-highlight-color": "#5a2fb7",
+        "other-user-pill-bg-color": "#5a2fb7",
+        "togglesw-off-color": "#373738",
+        "timeline-bubble-background-incoming": "#3f0254",
+        "timeline-bubble-background-outgoing": "#6e0093",
+        "timeline-bubble-background-selected": "#650e82"
     }
 }
