@@ -1,13 +1,18 @@
+# GoGuardian, self explanatory.
 *.goguardian.com
 goguardian.com
 *.laptoplookout.com
 laptoplookout.com
+
+# These seem to be APIs and endpoints used for pushing and pulling data and extensions.
 kinesis.us-west-2.amazonaws.com
 hosted-extensions.s3.us-west-2.amazonaws.com
 x3-report-uploads.s3.us-west-2.amazonaws.com
 beacon-report-uploads-prod.s3.us-west-2.amazonaws.com
 pusher.com
 *.pusher.com
+
+# This is ALL Linewize, including Familyzone and Quoria.
 familyzone.com
 *.familyzone.com
 familyzone.com.au
@@ -37,4 +42,18 @@ home.tools
 *.home.tools
 us.classwize.qoria.cloud
 us.schoolmanager.qoria.cloud
+
+# Gopher Buddy, a "tool" that checks if your device is on the newest ChromeOS, and logs your ip.
+# It nags the user to update ChromeOS if outdated, meaning you incidentally patch methods used to "jailbreak" your laptop..
+# aka security vulnerabilities...
+# https://amplifiedlabs.zendesk.com/hc/en-us/articles/360051865934-Frequently-Asked-Gopher-Buddy-Questions-for-End-Users
 gopher-buddy-prod.appspot.com
+
+
+# NetSweeper domains, self explanatory
+filter.usacloud8.netsweeper.com
+usacloud8.netsweeper.com
+
+
+# Lanschool Air, a tool made by lenovo to observe students.. basically a RAT for the educational facility.
+lanschoolair.lenovosoftware.com
