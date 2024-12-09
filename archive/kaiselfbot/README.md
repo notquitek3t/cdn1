@@ -1,0 +1,3 @@
+# kaiselfbot
+
+this used to be named drrateselfbot back in the day. basically, it's a skeleton of what used to be a self bot i ran for myself, originally developed by a lad named walter. i ended up forking it, and adding my own changes. it's probably not functional anymore, this is 3 year old code after all...
