@@ -1,0 +1,74 @@
+# ███████╗ ██████╗██╗  ██╗ ██████╗  ██████╗ ██╗     ██╗  ██╗ ██████╗ ███████╗████████╗███████╗
+# ██╔════╝██╔════╝██║  ██║██╔═══██╗██╔═══██╗██║     ██║  ██║██╔═══██╗██╔════╝╚══██╔══╝██╔════╝
+# ███████╗██║     ███████║██║   ██║██║   ██║██║     ███████║██║   ██║███████╗   ██║   ███████╗
+# ╚════██║██║     ██╔══██║██║   ██║██║   ██║██║     ██╔══██║██║   ██║╚════██║   ██║   ╚════██║
+# ███████║╚██████╗██║  ██║╚██████╔╝╚██████╔╝███████╗██║  ██║╚██████╔╝███████║   ██║   ███████║
+# ╚══════╝ ╚═════╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝   ╚═╝   ╚══════╝
+# 
+# Ever feared those trackers, such as GoGuardian and such that spy on you all the time?
+# Fear not! Run this on a DNS server on your home network, and you can rest assured
+# that your personal life outside of school won't be spied on.
+
+# DISCLAIMER:
+# For any admins lookin at this repo, please understand that I don't mean ill will towards the
+# education environment. This serves for people in their personal homes, who want that extra
+# bit of privacy in their life, and can't store their device at school in a locker or such.
+
+# GoGuardian, self explanatory.
+*.goguardian.com
+goguardian.com
+*.laptoplookout.com
+laptoplookout.com
+
+# These seem to be APIs and endpoints used for pushing and pulling data and extensions.
+kinesis.us-west-2.amazonaws.com
+hosted-extensions.s3.us-west-2.amazonaws.com
+x3-report-uploads.s3.us-west-2.amazonaws.com
+beacon-report-uploads-prod.s3.us-west-2.amazonaws.com
+pusher.com
+*.pusher.com
+
+# This is ALL Linewize, including Familyzone and Quoria.
+familyzone.com
+*.familyzone.com
+familyzone.com.au
+*.familyzone.com.au
+familyzone.tools
+*.familyzone.tools
+linewize.com
+*.linewize.com
+linewize.net
+*.linewize.net
+linewize.io
+*.linewize.io
+linewizereseller.net
+*.linewizereseller.net
+qoria.com
+*.qoria.com
+qoria.cloud
+*.qoria.cloud
+*.qoriaapis.cloud
+qoriaapis.cloud
+*.sphirewall.net
+sphirewall.net
+block.tools
+fzbox.tools
+fz-mza-update-files.s3.us-west-002.backblazeb2.com
+home.tools
+*.home.tools
+us.classwize.qoria.cloud
+us.schoolmanager.qoria.cloud
+
+# Gopher Buddy, a "tool" that checks if your device is on the newest ChromeOS, and logs your ip.
+# This may break your threat model, if you don't want your home ip to be revealed to your school.
+# https://amplifiedlabs.zendesk.com/hc/en-us/articles/360051865934-Frequently-Asked-Gopher-Buddy-Questions-for-End-Users
+gopher-buddy-prod.appspot.com
+
+
+# NetSweeper domains, self explanatory
+filter.usacloud8.netsweeper.com
+usacloud8.netsweeper.com
+
+
+# Lanschool Air, a tool made by lenovo to observe students.. might be abusable otherwise to spy on personal lives.
+lanschoolair.lenovosoftware.com
