@@ -23,4 +23,4 @@ Start-BitsTransfer -Source $DOWNLOAD_URL -Destination $env:TEMP\winget.msixbundl
 
 # Install winget:
 Add-AppxPackage $env:TEMP\winget.msixbundle
-echo Winget is installed.
+echo "Winget is installed."
